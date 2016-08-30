@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Typescript Demystified</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <span class="navbar-brand">
+                    Typescript 
+                    <small>demystified</small>
+                </span>
+            </div>
+        </div>
+    </header>
+    <section class="container">
+        <div class="page-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Typescript - TODO</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <div class="form-group">
+                    <input class="form-control" type="text" placeholder="New todo" id="new-todo">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3">
+                <ul class="list-group" id="todo-list">
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/template" id="todo-item-template">
+        <li class="list-group-item">
+            <input id="{{id}}" type="checkbox" {{checked}}>
+            <label>{{title}}</label>
+        </li>
+    </script>
+</body>
+
+</html>
