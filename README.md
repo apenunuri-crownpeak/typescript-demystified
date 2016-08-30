@@ -55,7 +55,7 @@ npm install yo -g
 
 ## Source code
 
-Haz un **fork** de **[https://github.com/bernardo-balvanera/typescript-demystified](https://github.com/bernardo-balvanera/typescript-demystified)** y baja el codigo fuente para poder realizar la practica.
+Haz un **fork** de este repo y clonalo para que sigamos la practica.
 
 ---
 
